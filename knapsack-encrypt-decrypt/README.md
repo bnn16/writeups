@@ -20,6 +20,7 @@ However, I wasn’t sure how to set up the knapsack sequence, what n was, or how
 
 I initially had no idea what a knapsack sequence was. After researching it, I learned that a superincreasing knapsack is a sequence where each number is larger than the sum of all previous numbers.
 The challenge provided specific rules for generating the knapsack sequence, which helped me structure it. I understood that the sequence would be built by starting with [1, 2] and adding one to the sum of all previous numbers until I had eight elements. This sequence is what’s referred to as superincreasing:
+
 **_Knapsack=[1,2,4,8,16,32,64,128]_**
 
 ### Step 2: Brute-Force Search for n
@@ -59,8 +60,13 @@ Each 8-bit binary string represented an ASCII character, allowing me to reconstr
 ## Solution Code
 
 I know the solution is messy and the code can be optimised, but it got the job done.
+
 Flag: Possible n: 31
+
 Decrypted Message: ironCTF{M4th\_&_C5_ar3_7h3_b3sT_c0Mb0!!}
+
+<img width="817" alt="Screenshot 2024-10-28 at 20 59 21" src="https://github.com/user-attachments/assets/082b88a6-6f4c-4caa-a2e9-0e790ec1a586">
+
 Here’s the code that successfully decrypted the message:
 
 ```js
